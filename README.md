@@ -19,7 +19,7 @@ If you want one database operation to happen after another one, you'll have to s
 
 ### Models
 1. Create a schema for a `Company`
-    - name (string, required)
+    - name (string, required, unique)
     - founded (Date)
     - employees (Number)
     - products (array of Strings)
@@ -52,7 +52,6 @@ If you want one database operation to happen after another one, you'll have to s
     - CEO:
         - name: Tim Cook
         - age: 61
-        - salary: 3000000
 1. Update Google
     - name: Alphabet Inc
     - employees: 135301
@@ -60,7 +59,6 @@ If you want one database operation to happen after another one, you'll have to s
     - CEO:
         - name: Sundar Pichai
         - age: 49
-        - salary: 2000000
 1. Find Google
     - log its employees
 1. Find Apple
