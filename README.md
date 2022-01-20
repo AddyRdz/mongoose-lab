@@ -59,7 +59,7 @@ If you want one database operation to happen after another one, you'll have to s
     - CEO:
         - name: Sundar Pichai
         - age: 49
-1. Find Google
+1. Find Alphabet
     - log its employees
 1. Find Apple
     - log its employees
