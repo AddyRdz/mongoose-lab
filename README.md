@@ -64,6 +64,23 @@ If you want one database operation to happen after another one, you'll have to s
 1. Find Apple
     - log its employees
 
+
+### Need some hints?
+<details>
+    <summary>Hints!</summary>
+    The <code>deleteMany()</code> function can be used to remove all documents in a collection.<br/>
+    In the <code>deleteMany()</code> callback, you'll receive back an object with <code>deletedCount</code> as it's only property.
+    <br /><br />
+    <code>findOneAndUpdate()</code> takes up to four arguments.<br/>
+    The first argument specifies the query<br/>
+    The second argument specifies the update object<br/>
+    The third optional argument <code>{ new: true }</code> is used to specify we want the updated document to be returned<br/>
+    The final argument is the callback function
+    
+</details>
+
+<hr />
+
 ## Hungry for More?
 See if you can rewrite this file using one of the other JavaScript syntaxes for asynchronous code.
 
